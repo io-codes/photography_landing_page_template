@@ -117,6 +117,7 @@ input[type=text], select {
   border: 1px solid #ccc;
   border-radius: 15px;
   box-sizing: border-box;
+  color:rgb(198, 162, 195);
 }
 
 div.container {
