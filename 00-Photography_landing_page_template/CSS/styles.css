@@ -16,8 +16,9 @@ body{
   background-repeat: no-repeat;
   background-position: center center;
   /* blur effect */
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  /* opacity: 0.85; */
   position: relative;
   z-index: -1;
 }
@@ -27,7 +28,7 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  z-index: 5;
+  z-index: 2;
   padding:40px 0;
 }
 
@@ -37,10 +38,12 @@ header{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-size: large;
+  color: rgb(255, 255, 255)
 }
 
 .logo{
-  padding: 0 1.5rem;
+  padding: 0 2.5rem;
 }
 
 .temp-company-name{
@@ -71,14 +74,14 @@ ul{
   list-style-type:none;
   justify-content: center;
   align-items: center;
-  font-family:'Open Sans', sans-serif;;
+  font-family:'Open Sans', sans-serif;
 }
 
 ul li a{
   text-decoration:none;
   padding: 0 1rem;
-  color: rgb(255, 255, 255);
   display:inline-block;
+  color: #fafafa;
 }
 
 li a::after{
@@ -99,6 +102,7 @@ main {
   height: calc(100vh - 100px);
   align-items: center;
   justify-content: center;
+  border-top: solid #fafafa;
 }
 
 main h1{
@@ -134,7 +138,7 @@ input[type=text], select {
   border: 1px solid #ccc;
   border-radius: 15px;
   box-sizing: border-box;
-  color:rgb(198, 162, 195);
+  color:rgb(87, 140, 190);
 }
 
 div.container {
@@ -145,6 +149,7 @@ div.container {
   /* border: 3px solid rgb(172, 190, 207); */
   color:black;
   font-family: 'Open Sans', sans-serif;
+  opacity: 0.8;
 }
 
 .submit{
