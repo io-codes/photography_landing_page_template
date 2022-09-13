@@ -27,6 +27,9 @@ header{
   padding-left:0.25rem;
 }
 
+nav{
+  margin-right: 150px;
+}
 ul{
   display: flex;
   /* justify-content: space-around;
@@ -36,7 +39,7 @@ ul{
 
 ul li a{
   text-decoration:none;
-  padding: 0 15px;
+  padding: 0 1.7rem;
   color: rgb(255, 255, 255);
   display:inline-block;
 }
@@ -44,7 +47,7 @@ ul li a{
 li a::after{
   content:'';
   display: block;
-  height: 2px;
+  height: 1px;
   width: 0px;
   background:rgb(255, 255, 255);
   transition:all .45s;
