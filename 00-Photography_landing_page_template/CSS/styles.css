@@ -5,8 +5,15 @@
 }
 body{
   font-family: 'Open Sans', sans-serif;
-  background:rgb(52, 51, 51);
   color: white;
+}
+
+.background-image{
+  background-image: url(/images/pexels-nghia-trinh-931796.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100vh;
+  width: 100vw;
 }
 
 header{
@@ -47,6 +54,7 @@ ul{
   align-items: center; */
   list-style-type:none;
   justify-content: center;
+  align-items: center;
 }
 
 ul li a{
