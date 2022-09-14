@@ -126,9 +126,9 @@ main p{
 }
 
 .content-left{
-  padding: 180px 100px;
-  margin-right: 20rem;
-  margin-left: 100px;
+  padding: 180px ;
+  margin-right: 60%;
+  margin-left: 0px;
   left: 10%;
   background:rgba(225,225,225,0.4);
 }
