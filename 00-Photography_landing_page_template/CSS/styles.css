@@ -16,14 +16,14 @@ body{
   background-repeat: no-repeat;
   background-position: center center;
   /* blur effect */
-  filter: blur(4px);
-  -webkit-filter: blur(4px);
+  filter: blur(1.5px);
+  -webkit-filter: blur(1.5px);
   /* opacity: 0.85; */
   position: relative;
   z-index: -1;
 }
 
-.main-div{
+.wrapper{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -34,6 +34,7 @@ body{
 
 header{
   height: 100px;
+  width:100vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -48,6 +49,7 @@ header{
 }
 
 .temp-company-name{
+  width: max-content;
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
 }
@@ -76,6 +78,7 @@ ul{
 
 ul li a{
   text-decoration:none;
+  width: max-content;
   padding: 0 1rem;
   display:inline-block;
   color: #595656;
@@ -95,7 +98,7 @@ li a:hover::after{
 }
 
 main {
-  display: flex;
+  /* display: flex; */
   height: calc(100vh - 100px);
   align-items: center;
   justify-content: center;
@@ -123,7 +126,8 @@ main p{
 }
 
 .content-left{
-  padding: 240px 100px;
+  padding: 180px 100px;
+  margin-right: 20rem;
   margin-left: 100px;
   left: 10%;
   background:rgba(225,225,225,0.4);
@@ -159,11 +163,13 @@ div.container {
   border-radius: 15px;
 }
 
-.social-media-icons{
+/* .social-media-icons{
   display: inline-block;
   padding: 10rem;
-}
+} */
 
-@media screen and (min-width: 768px) {
-
+@media only screen and (min-width: 768px) {
+  div.container{
+    display:block;
+  }
 }
