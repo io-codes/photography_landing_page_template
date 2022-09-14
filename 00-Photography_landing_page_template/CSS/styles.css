@@ -39,7 +39,7 @@ header{
   justify-content: space-around;
   align-items: center;
   font-size: large;
-  color: rgb(255, 255, 255)
+  color: rgb(59,56,56);
 }
 
 .logo{
@@ -69,8 +69,6 @@ nav{
 
 ul{
   display: flex;
-  /* justify-content: space-around;
-  align-items: center; */
   list-style-type:none;
   justify-content: center;
   align-items: center;
@@ -81,7 +79,7 @@ ul li a{
   text-decoration:none;
   padding: 0 1rem;
   display:inline-block;
-  color: #fafafa;
+  color: #595656;
 }
 
 li a::after{
