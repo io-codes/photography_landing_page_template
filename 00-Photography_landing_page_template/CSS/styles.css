@@ -32,9 +32,7 @@ body{
   padding:40px 0;
 }
 
-/*add a solid white background w medium opacity*/
 header{
-  /* background: azure; */
   height: 100px;
   display: flex;
   justify-content: space-around;
@@ -46,12 +44,10 @@ header{
 }
 
 .logo{
-  padding: 0 2.5rem;
+  padding: 0 5rem;
 }
 
 .temp-company-name{
-  flex:1 1 auto;
-  padding-left:0.25rem;
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
 }
@@ -127,9 +123,10 @@ main p{
 }
 
 .content-left{
-  padding: 20px;
+  padding: 240px 100px;
   margin-left: 100px;
-  flex: auto;
+  left: 10%;
+  background:rgba(225,225,225,0.4);
 }
 
 input[type=text], select {
