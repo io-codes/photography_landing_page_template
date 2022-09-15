@@ -103,11 +103,12 @@ li a:hover::after{
 }
 
 main {
-  /* display: flex; */
+  display: flex;
   height: calc(100vh - 100px);
-  width: auto;
+  width: 100vw;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
+  position: relative;
 }
 
 main h1{
@@ -119,25 +120,25 @@ main h2{
   font-family: 'Open Sans', sans-serif;
   font-size: 50px;
   color: rgb(161, 136, 155);
-  display: inline-block;
+  display: block;
 }
 
 main p{
-  padding-top:40px;
+  padding-top:20px;
   align-items: center;
   justify-content: center;
-  width: auto;
+  max-width: fit-content;
+  max-height: fit-content;
   font-family: 'Open Sans', sans-serif;
   font-size: smaller;
 }
 
 .content-left{
   padding: 100px;
-  margin-left: 0px;
-  width:auto;
+  /* width:auto; */
   height: 100%;
   background:rgba(225,225,225,0.4);
-  position:relative;
+  position:absolute;
 }
 
 input[type=text], select {
@@ -154,11 +155,12 @@ div.container {
   border-radius: 15px;
   background-color: #fafafa;
   padding: 30px 45px;
-  margin-right:auto;
+  margin:50px 2rem 0 2rem;
   margin-top: 50px;
   color:black;
   font-family: 'Open Sans', sans-serif;
   opacity: 0.8;
+  position: absolute;
 }
 
 .submit{
@@ -182,6 +184,7 @@ div.container {
 
   main p{
     display: block;
+    font-size: 30px;
   }
 
   .content-left{
