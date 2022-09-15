@@ -147,7 +147,6 @@ main p{
   width:auto;
   height: 100%;
   background:rgba(225,225,225,0.4);
-  position:relative;
 }
 
 /*content right*/
@@ -187,18 +186,20 @@ input[type=text], select {
   padding: 10rem;
 } */
 
-@media only screen and (min-width: 920px) {
+@media only screen and (min-width: 1030px) {
   main{
     display: flex;
   }
 
   main p{
     display: block;
+    max-width: 15rem;
   }
 
   .content-left{
     margin-bottom: auto;
-    margin-right: 200px;
+    margin-right: 40vmax;
+    width:40rem;
   }
   div.container{
     margin-right: 5rem;
