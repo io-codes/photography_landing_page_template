@@ -141,16 +141,6 @@ main p{
   position:relative;
 }
 
-input[type=text], select {
-  padding: 12px 20px;
-  margin: 8px 0px;
-  display: block;
-  border: 1px solid #ccc;
-  border-radius: 15px;
-  box-sizing: border-box;
-  color:rgb(87, 140, 190);
-}
-
 .content-left{
   padding: 100px;
   margin-left: 0px;
@@ -166,11 +156,21 @@ div.container {
   background-color: #fafafa;
   padding: 30px 45px;
   margin:20px 0 ;
-  /* width: fit-content; */
+  min-width: fit-content;
   color:black;
   font-family: 'Open Sans', sans-serif;
   opacity: 0.8;
   align-content: center;
+}
+
+input[type=text], select {
+  padding: 12px 20px;
+  width:100%;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color:rgb(87, 140, 190);
 }
 
 .submit{
